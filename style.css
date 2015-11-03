@@ -90,18 +90,18 @@ ul.nav > li > a:hover:before {
 /* End Nav */
 
 /* Profile Section */
-section.profile {
+section#profile{
   padding-top: 50px;
 }
 
-section.profile img.avatar {
+section#profile img.avatar {
   margin: 0 auto;
 
   border-radius: 50%;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .50);
 }
 
-section.profile p.name {
+section#profile p.name {
   font-size: 2em;
   font-weight: 300;
 
@@ -111,7 +111,7 @@ section.profile p.name {
   text-transform: uppercase;
 }
 
-section.profile .social a {
+section#profile .social a {
   font-size: 2em;
 
   display: inline-block;
@@ -121,27 +121,27 @@ section.profile .social a {
   text-align: center;
 }
 
-section.profile .social i.icon {
+section#profile .social i.icon {
   transition: color .2s linear;
 }
 
-section.profile .social a:hover i.icon.fa-facebook {
+section#profile .social a:hover i.icon.fa-facebook {
   color: #3b5998;
 }
 
-section.profile .social a:hover i.icon.fa-twitter {
+section#profile .social a:hover i.icon.fa-twitter {
   color: #00aced;
 }
 
-section.profile .social a:hover i.icon.fa-github {
+section#profile .social a:hover i.icon.fa-github {
   color: #000;
 }
 
-section.profile .social a:hover i.icon.fa-fire {
+section#profile .social a:hover i.icon.fa-fire {
   color: #e91e63;
 }
 
-section.profile .content {
+section#profile .content {
   font-size: 1.2em;
 
   margin-top: 30px;
