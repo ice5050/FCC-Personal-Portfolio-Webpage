@@ -19,7 +19,15 @@ body {
   background-size: cover;
 }
 
-/* Nav */
+/* Section Navigation */
+
+section#navigation {
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  width: 100%;
+}
 
 ul.nav {
   float: right;
@@ -87,11 +95,11 @@ ul.nav > li > a:hover:before {
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
-/* End Nav */
+/* End Section Navigation */
 
 /* Profile Section */
-section#profile{
-  padding-top: 50px;
+section#profile {
+  padding-top: 150px;
 }
 
 section#profile img.avatar {
