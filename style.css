@@ -1,0 +1,150 @@
+html, button, input, select, textarea, .pure-g [class *= 'pure-u'] {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+  color: #fff;
+}
+
+body {
+  font-weight: 300;
+
+  box-sizing: border-box;
+
+  color: #fff;
+  background: linear-gradient(90deg, rgba(73,178,60,.50) 1%, rgba(16,133,170,.50) 100%), url('images/bg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Nav */
+
+ul.nav {
+  float: right;
+
+  margin-right: 10px;
+}
+
+ul.nav > li {
+  float: left;
+
+  margin: 0 10px;
+
+  list-style-type: none;
+}
+
+ul.nav > li > a {
+  font-size: 1em;
+
+  position: relative;
+
+  padding-bottom: 5px;
+
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+ul.nav > .active > a:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  visibility: visible;
+
+  width: 100%;
+  height: 1px;
+
+  content: '';
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+
+  background-color: #fff;
+}
+
+ul.nav > li > a:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  visibility: hidden;
+
+  width: 100%;
+  height: 1px;
+
+  content: '';
+  transition: all .2s ease-in-out;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+
+  background-color: #fff;
+}
+
+ul.nav > li > a:hover:before {
+  visibility: visible;
+
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
+/* End Nav */
+
+/* Profile Section */
+section.profile {
+  padding-top: 50px;
+}
+
+section.profile img.avatar {
+  margin: 0 auto;
+
+  border-radius: 50%;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .50);
+}
+
+section.profile p.name {
+  font-size: 2em;
+  font-weight: 300;
+
+  margin-top: 30px;
+
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.profile .social a {
+  font-size: 2em;
+
+  display: inline-block;
+
+  width: 24%;
+
+  text-align: center;
+}
+
+section.profile .social i.icon {
+  transition: color .2s linear;
+}
+
+section.profile .social i.icon.fa-facebook:hover {
+  color: #3b5998;
+}
+
+section.profile .social i.icon.fa-twitter:hover {
+  color: #00aced;
+}
+
+section.profile .social i.icon.fa-github:hover {
+  color: #000;
+}
+
+section.profile .social i.icon.fa-fire:hover {
+  color: #e91e63;
+}
+
+section.profile .content {
+  font-size: 1.2em;
+
+  margin-top: 30px;
+}
+
+/* End Profile Section */
