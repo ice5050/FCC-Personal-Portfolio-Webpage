@@ -12,7 +12,7 @@ body {
   box-sizing: border-box;
 
   color: #fff;
-  background: linear-gradient(90deg, rgba(73,178,60,.50) 1%, rgba(16,133,170,.50) 100%), url('images/bg.jpeg');
+  background: linear-gradient(90deg, rgba(73,178,60,.50) 1%, rgba(16,133,170,.50) 100%), url('../images/bg.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
