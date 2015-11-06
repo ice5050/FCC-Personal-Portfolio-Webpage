@@ -99,8 +99,7 @@ ul.nav > li > a:hover:before {
 /* End Section Navigation */
 
 /* Profile Section */
-#profile {
-}
+
 
 #profile img.avatar {
   margin: 0 auto;
@@ -156,3 +155,11 @@ ul.nav > li > a:hover:before {
 }
 
 /* End Profile Section */
+
+/* Portfolio Section */
+
+#portfolio .item .content {
+  padding-right: 10px;
+}
+
+/* End Portfolio Section*/
