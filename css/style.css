@@ -21,8 +21,9 @@ body {
 
 /* Section Navigation */
 
-section#navigation {
+#navigation {
   position: fixed;
+  z-index: 10;
   top: 0;
   left: 0;
 
@@ -98,18 +99,17 @@ ul.nav > li > a:hover:before {
 /* End Section Navigation */
 
 /* Profile Section */
-section#profile {
-  padding-top: 150px;
+#profile {
 }
 
-section#profile img.avatar {
+#profile img.avatar {
   margin: 0 auto;
 
   border-radius: 50%;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, .50);
 }
 
-section#profile p.name {
+#profile p.name {
   font-size: 2em;
   font-weight: 300;
 
@@ -119,7 +119,7 @@ section#profile p.name {
   text-transform: uppercase;
 }
 
-section#profile .social a {
+#profile .social a {
   font-size: 2em;
 
   display: inline-block;
@@ -129,27 +129,27 @@ section#profile .social a {
   text-align: center;
 }
 
-section#profile .social i.icon {
+#profile .social i.icon {
   transition: color .2s linear;
 }
 
-section#profile .social a:hover i.icon.fa-facebook {
+#profile .social a:hover i.icon.fa-facebook {
   color: #3b5998;
 }
 
-section#profile .social a:hover i.icon.fa-twitter {
+#profile .social a:hover i.icon.fa-twitter {
   color: #00aced;
 }
 
-section#profile .social a:hover i.icon.fa-github {
+#profile .social a:hover i.icon.fa-github {
   color: #000;
 }
 
-section#profile .social a:hover i.icon.fa-fire {
+#profile .social a:hover i.icon.fa-fire {
   color: #e91e63;
 }
 
-section#profile .content {
+#profile .content {
   font-size: 1.2em;
 
   margin-top: 30px;
