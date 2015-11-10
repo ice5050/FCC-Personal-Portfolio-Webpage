@@ -1,3 +1,6 @@
 $(document).ready(function() {
-  $('#full-page').fullpage();
+  $('#full-page').fullpage({
+    anchors: ['profile-page', 'portfolio-page'],
+    menu: '#nav-menu'
+  });
 });
